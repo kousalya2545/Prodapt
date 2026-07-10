@@ -1,0 +1,16 @@
+products = ["Laptop",Mouse",Keyboard"]
+print(products)
+products.append("Monitor")
+print(products)
+new_products = ["Tablet",'Webcam']
+products.extend(new_products)
+print(products)
+products.remove("Mouse")
+print(products)
+print("Shipped:",products.pop(0))
+print(products) 
+print(products.count("Laptop"))
+print(products.index("Keyboard"))
+print(products.sort())
+print(products.index("Keyboard"))
+print(products)
